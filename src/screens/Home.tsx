@@ -1,7 +1,7 @@
-import Container from '../components/Container.tsx';
 import '../App.css';
 import { useNavigate } from 'react-router';
 import { useState } from 'react';
+import { Container } from '@/components';
 
 const Home = () => {
   const nav = useNavigate();

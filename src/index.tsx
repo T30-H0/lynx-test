@@ -1,8 +1,8 @@
 import { root } from '@lynx-js/react';
 import { MemoryRouter, Routes, Route } from 'react-router';
 import { App } from './App.tsx';
-import Home from './screens/Home.tsx';
-import Product from './screens/Product.tsx';
+
+import { Home, Product } from '@/screens';
 
 root.render(
   <MemoryRouter>
